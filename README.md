@@ -1,7 +1,7 @@
 # Anomaly Detection
 Dieses Projekt beschäftigt sich mit der Entwicklung einer Analyseanwendung zur Erkennung von Anomalien in der Speicherauslastung einer virtuellen Umgebung.
 ## Funktion
-- Datenabfrage über die Elasticseach API
+- Datenabfrage über die Elasticsearch API
 - Datenfilterung
 - Datenbereinigung
 - Analyse durch BIRCH-Algorithmus
