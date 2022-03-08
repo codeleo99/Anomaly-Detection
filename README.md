@@ -20,7 +20,8 @@ Die zur Ausführung benötigten Module können über folgendes Kommando installi
 ```python -m birchAnalysis.py```
 
 ## esData
-Dieses Modul greift unter Verwendung des [Elasticseach Python Client](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html) auf die im ELK-Stack hinterlegten Daten zu. Die für den API-Call nötige Nutzlast wird in Form einer JSON-Query aufgestellt. Die ursprüngliche Query wurde durch Inspektion eines Elastic-Dashboards erzeugt. ![Inspektion-Button](https://user-images.githubusercontent.com/79086895/157314060-88cac56b-661d-467a-a55b-e554e1c9d8cf.png)
+Dieses Modul greift unter Verwendung des [Elasticseach Python Client](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html) auf die im ELK-Stack hinterlegten Daten zu. Die für den API-Call nötige Nutzlast wird in Form einer JSON-Query aufgestellt. Die ursprüngliche Query wurde durch Inspektion eines Elastic-Dashboards erzeugt. 
+![Inspektion-Button](https://user-images.githubusercontent.com/79086895/157314060-88cac56b-661d-467a-a55b-e554e1c9d8cf.png)
 ![Requests](https://user-images.githubusercontent.com/79086895/157314527-33d8f6e3-8051-483f-af8b-505d333aa077.png)
 ![Teil der JSON-Query](https://user-images.githubusercontent.com/79086895/157314337-cdcf07bd-8630-4a50-8bcd-7d883750b1bf.png)
 
