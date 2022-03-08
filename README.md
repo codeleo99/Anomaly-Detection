@@ -1,5 +1,5 @@
 # Anomaly Detection
-Dieses Projekt beschäftigt sich mit der Entwicklung einer Analyseanwendung zur Erkennung von Anomalien in der Speicherauslastung.
+Dieses Projekt beschäftigt sich mit der Entwicklung einer Analyseanwendung zur Erkennung von Anomalien in der Speicherauslastung einer virtuellen Umgebung.
 ## Funktion
 - Datenabfrage über die Elasticseach API
 - Datenfilterung
