@@ -1,8 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import Birch
-from sklearn.utils.testing import ignore_warnings
-from sklearn.exceptions import ConvergenceWarning
 import esData
 
 # Source: https://stackoverflow.com/questions/45729092/make-interactive-matplotlib-window-not-pop-to-front-on-each-update-windows-7
@@ -18,8 +16,6 @@ def mypause(interval):
             canvas.start_event_loop(interval)
             return
 
-# Ignoriere Warnungen, dass nur ein Cluster vorhanden ist
-@ignore_warnings(category=ConvergenceWarning)
 def drawPlot():
     dataList = esData.elasticRequest()
     X = np.array(dataList)
